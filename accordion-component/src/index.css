@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Color Theme Swatches in RGBA */
+.ocean-1-rgba { color: rgba(1, 55, 89, 1); }
+.ocean-2-rgba { color: rgba(2, 82, 114, 1); }
+.ocean-3-rgba { color: rgba(80, 159, 191, 1); }
+.ocean-4-rgba { color: rgba(149, 197, 216, 1); }
+.ocean-5-rgba { color: rgba(215, 234, 242, 1); }
+
+
+header {
+  background-color: rgba(1, 55, 89, 1);
+  padding: 2rem 20%;
+}
+
+h1 {
+  color: white;
+}
+
+.toggle-selection-btn {
+  margin: 2rem auto;
+  display: block;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  background-color: rgba(2, 82, 114, 1);
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+}
+
+.toggle-selection-btn:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.accordion-list {
+  max-width: 80vw;
+  margin: 2rem auto;
+  list-style: none;
+}
+
+.accordion-container {
+  background-color: rgba(215, 234, 242, 1);
+  margin-bottom: .5rem;
+}
+
+.accordion-header {
+  background-color: rgba(80, 159, 191, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem;
+  letter-spacing: 1px;
+}
+
+.expand-btn {
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.accordion-answer {
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
