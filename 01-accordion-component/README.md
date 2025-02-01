@@ -1,6 +1,6 @@
 # Accordion Dropdown
 
-<img src="./public/documentation-gif.gif" style="margin: 0 auto;">
+<img src="./public/documentation-gif.gif" style="margin: 0 auto;" alt="GIF testing project's functionalities">
 
 # Components
 
