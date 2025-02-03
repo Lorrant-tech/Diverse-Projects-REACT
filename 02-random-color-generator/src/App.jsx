@@ -59,7 +59,7 @@ function App() {
       </div>
 
       <h1 className="title">{isHex ? 'HEX' : 'RGB'}</h1>
-      
+
       <p>{color}</p>
     </div>
   )
